@@ -8,7 +8,7 @@ En lugar de trabajar con código complejo, nuestro proyecto consiste en escribir
 
 Toda la historia, aportaciones y desarrollo de la trama de nuestro "Cuento Colaborativo" se encuentra en el siguiente archivo:
 
-➡️ **[cuento.md](cuento.colaborativo.md)** ⬅️
+➡️ **[cuento.colaborativo.md](cuento.colaborativo.md)** ⬅️
 
 ---
 
@@ -86,16 +86,17 @@ A veces, dos personas editan la misma línea. ¡No entres en pánico! Es normal.
     ```
 5.  **Edita el archivo:** Habla con tu equipo para decidir la versión final. **Borra** los marcadores `<<<<<<<`, `=======`, `>>>>>>>` y deja el texto como debería ser.
 6.  **Finaliza la resolución:**
-    ```bash
-    # Marca el archivo como resuelto
-    git add cuento.md
 
-    # Haz un commit para guardar la resolución
-    git commit
+```bash
+# Marca el archivo como resuelto
+git add cuento.colaborativo.md
 
-    # Sube los cambios a tu rama. El PR se actualizará automáticamente
-    git push
-    ```
+# Haz un commit para guardar la resolución
+git commit
+
+# Sube los cambios a tu rama. El PR se actualizará automáticamente
+git push
+```
 
 ## 📝 Ayuda Memoria Rápida (Cheatsheet)
 
